@@ -75,11 +75,7 @@ class ImagesListViewController: UIViewController {
         cell.likeButton.setImage(likeImage, for: .normal)
         
         print("Row: \(indexPath.row) — Like: \(likeImageName)")
-        
-        // cell.cellImageView.image = UIImage(named: "0")
-        // cell.dateLabel.text = "27 апреля 2022"
-        // let likeImage = UIImage(named: "No active")
-        // cell.likeButton.setImage(likeImage, for: .normal)
+
     }
 }
 
