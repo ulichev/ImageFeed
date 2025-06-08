@@ -16,65 +16,9 @@
                     <view key="view" contentMode="scaleToFill" id="mWS-sZ-nfF">
                         <rect key="frame" x="0.0" y="0.0" width="402" height="757"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="UserPic" translatesAutoresizingMaskIntoConstraints="NO" id="gpK-Aq-Msr">
-                                <rect key="frame" x="16" y="76" width="70" height="70"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="70" id="60Y-VI-gmu"/>
-                                    <constraint firstAttribute="width" constant="70" id="ew9-5b-Lhx"/>
-                                </constraints>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wml-73-4v5">
-                                <rect key="frame" x="354" y="99" width="24" height="24"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="24" id="Sc1-gh-cGq"/>
-                                    <constraint firstAttribute="width" constant="24" id="f7E-HF-lMw"/>
-                                </constraints>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" image="Exit" title=""/>
-                                <connections>
-                                    <action selector="logoutButtonTapped:" destination="4FV-9p-BYl" eventType="touchUpInside" id="BHb-oG-WHs"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Екатерина Новикова" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wzy-P6-1xG">
-                                <rect key="frame" x="16" y="154" width="228" height="28"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="23"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="@ekaterina_nov" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QCp-OB-OsN">
-                                <rect key="frame" x="16" y="190" width="97" height="16"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                <color key="textColor" name="Grey"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Hello, World!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PE2-Y9-JDO">
-                                <rect key="frame" x="16" y="214" width="78" height="16"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
                         <viewLayoutGuide key="safeArea" id="WeA-rA-HuR"/>
-                        <color key="backgroundColor" name="BackgroundColor"/>
-                        <constraints>
-                            <constraint firstItem="gpK-Aq-Msr" firstAttribute="leading" secondItem="WeA-rA-HuR" secondAttribute="leading" constant="16" id="7tv-eL-G3N"/>
-                            <constraint firstItem="WeA-rA-HuR" firstAttribute="trailing" secondItem="Wml-73-4v5" secondAttribute="trailing" constant="24" id="Bxk-A2-r0m"/>
-                            <constraint firstItem="Wml-73-4v5" firstAttribute="top" secondItem="mWS-sZ-nfF" secondAttribute="top" constant="99" id="mqQ-Dd-kP4"/>
-                            <constraint firstItem="gpK-Aq-Msr" firstAttribute="top" secondItem="mWS-sZ-nfF" secondAttribute="top" constant="76" id="o7G-Ec-ssb"/>
-                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="" image="ProfileActive" id="RiQ-Wx-nbn"/>
-                    <connections>
-                        <outlet property="accountLabelView" destination="QCp-OB-OsN" id="5OY-TN-4Kg"/>
-                        <outlet property="descriptionLabelView" destination="PE2-Y9-JDO" id="e0y-zA-Rq7"/>
-                        <outlet property="logoutButton" destination="Wml-73-4v5" id="hVT-SN-fTJ"/>
-                        <outlet property="nameLabelView" destination="wzy-P6-1xG" id="9Gc-f5-vXc"/>
-                        <outlet property="profileImageView" destination="gpK-Aq-Msr" id="u7L-gf-3q1"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vdP-De-79M" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -296,17 +240,12 @@
         <image name="0" width="1600" height="1059"/>
         <image name="Backward" width="24" height="24"/>
         <image name="DateBackground" width="343" height="30"/>
-        <image name="Exit" width="24" height="24"/>
         <image name="No Active" width="44" height="44"/>
         <image name="ProfileActive" width="30" height="30"/>
         <image name="Sharing" width="51" height="50"/>
-        <image name="UserPic" width="70" height="70"/>
         <image name="imagesListActive" width="30" height="30"/>
         <namedColor name="BackgroundColor">
             <color red="0.10196078431372549" green="0.10588235294117647" blue="0.13333333333333333" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </namedColor>
-        <namedColor name="Grey">
-            <color red="0.68235294117647061" green="0.68627450980392157" blue="0.70588235294117652" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
     </resources>
 </document>
